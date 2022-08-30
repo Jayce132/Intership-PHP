@@ -1,7 +1,7 @@
 # Intership PHP
 > Pentru completarea raspunsurilor care necesita scriere de cod PHP se poate folosi orice metoda:
->    - folosirea locala a aunui editor php si atasarea in commit a unui fisier php pentru fiecare punct
->    - folosirea editorului online https://onecompiler.com/php care permite salvare , share sau download de fisier php
+>    - folosirea locala a unui editor php si atasarea in commit a unui fisier php pentru fiecare punct
+>    - folosirea editorului online https://onecompiler.com/php care permite salvare ,share sau download de fisier php
 >    - orice alta metoda care sa fie descifrabila :)
 
 Timp disponibil: 2 ore
