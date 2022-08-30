@@ -126,7 +126,7 @@ $arr = ["unu", "doi", "trei"]
     }    
 ```
 
-> 16 . Avand urmatoarele doua clase definite de relatia de mostenire intre ele, modifica codul astfel incat apelul function afiseazaDetalii al clasei Child sa afiseze "afiseazaDetalii parinte afiseazaDetalii copil" 
+> 16 . Avand urmatoarele doua clase definite de relatia de mostenire intre ele, modifica codul astfel incat apelul functiei afiseazaDetalii al clasei Child sa afiseze "afiseazaDetalii parinte afiseazaDetalii copil" 
 
 > 
 ```php
