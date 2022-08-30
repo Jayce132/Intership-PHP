@@ -52,3 +52,17 @@ $arr = ["unu", "doi", "trei"]
 > 8 . Explicati error, warning si notice si efectele lor asupra executarii codului php.
 
 > 9 . Care sunt diferentele intre cele 3 nivele de visibilitate in OOP: public, protected si private.
+
+> 10 . Ce este Overloading si Overriding in OOP? 
+> - Exemplificati Overloading prin completarea codului:
+> > 
+```php
+    class Math
+    {
+        function sum($unu, $doi) {
+        
+        }
+        
+        // De completat
+    }
+```
