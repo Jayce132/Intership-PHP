@@ -11,15 +11,18 @@ Pentru completarea raspunsurilor foloseste un fisier (PDF, WORD, etc) care va fi
 ```
 > 2 . Enumera tipurile de iteratori (loops) din php si exemplifica fiecare prin scrierea unei bucati de cod care sa itereze peste un array care contine cifrele de la 0-99 si printeaza fiecare numar par.
 
- > 1 . Ce se va afisa dupa executia urmotarelor linii de cod:
+ > 3 . Scrie o functie printString() care primeste ca parametru un string si printeaza parametrul primit.
+ Urmatoarele doua bucati de cod apeleaza functia printString(). Care va fi rezultatul afisat pentru cele dous situatii? Explica rezultatele.
 > 
 ```php
-    function printString($string) {
-        $string = "String 1"."\n";
-        print($string);
-    }
-    
-    $string = "String 2"."\n";
-    printString($string);
-    print($string);
+$string = "String 1";
+$str = &$string;
+$str = "String 2";
+printString($string);
+```
+```php
+$string = "String1";
+$str = "String 2";
+$string = $str;
+printString($string);
 ```
