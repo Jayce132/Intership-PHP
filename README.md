@@ -68,7 +68,7 @@ $arr = ["unu", "doi", "trei"]
 ```
 
 > - Exemplificati Overriding prin completarea codului:
-> > 
+> 
 ```php
     class Math
     {
@@ -81,3 +81,23 @@ $arr = ["unu", "doi", "trei"]
 ```
 
 > 10 . Ce sunt interfetele si clasele abstarcte? Scrieti codul pentru o interfata care se numeste Payments si care contine 2 metode: adauga si scade. Scrie o clasa OnlinePayments care foloseste interfata Payments.
+
+> 11 . Avand urmatoarele doua cl;ase definite de ralatiila de mostenire intre ele, completati codul astfel incat clasa Child sa poata accessa varabila privata $cnp din clasa Parent:
+
+> 
+```php
+    class Parent
+    {
+        private $cnp;
+    }
+    
+    class Child extends Parent
+    {
+        public function afiseazaDetalii()
+        {
+            // acceseaza variabia privata $cnp
+        }
+    }    
+```
+
+
