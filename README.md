@@ -66,3 +66,16 @@ $arr = ["unu", "doi", "trei"]
         // De completat
     }
 ```
+
+> - Exemplificati Overriding prin completarea codului:
+> > 
+```php
+    class Math
+    {
+        function sum($unu, $doi) {
+        
+        }     
+    }
+    
+    // De completat
+```
