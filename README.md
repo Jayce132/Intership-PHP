@@ -50,3 +50,5 @@ $arr = ["unu", "doi", "trei"]
 > 7 . Descrieti si motivati utilitatea si utilizarea cookies si session variable. Exemplificati teoretic pe o aplicatie web ipotetica de tip emag.
 
 > 8 . Explicati error, warning si notice si efectele lor asupra executarii codului php.
+
+> 9 . Care sunt diferentele intre cele 3 nivele de visibilitate in OOP: public, protected si static.
