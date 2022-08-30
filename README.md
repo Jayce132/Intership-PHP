@@ -51,4 +51,4 @@ $arr = ["unu", "doi", "trei"]
 
 > 8 . Explicati error, warning si notice si efectele lor asupra executarii codului php.
 
-> 9 . Care sunt diferentele intre cele 3 nivele de visibilitate in OOP: public, protected si static.
+> 9 . Care sunt diferentele intre cele 3 nivele de visibilitate in OOP: public, protected si private.
