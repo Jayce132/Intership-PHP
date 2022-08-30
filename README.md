@@ -1,21 +1,25 @@
-# Dillinger
-## _The Last Markdown Editor, Ever_
+# Intership PHP
+Pentru completarea raspunsurilor foloseste un fisier (PDF, WORD, etc) care va fi comis la acest repository.
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+### PHP
+> 1 . Explica care este diferenta intre == si === si ce va return evaluarea celor do expresii:
+> 
+```php
+    $a = 1; $b = "1";
+    $a == $b;
+    $a === $b;
+```
+> 2 . Enumera tipurile de iteratori (loops) din php si exemplifica fiecare prin scrierea unei bucati de cod care sa itereze peste un array care contine cifrele de la 0-99 si printeaza fiecare numar par.
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
-
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
-
-## Features
-
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+ > 1 . Ce se va afisa dupa executia urmotarelor linii de cod:
+> 
+```php
+    function printString($string) {
+        $string = "String 1"."\n";
+        print($string);
+    }
+    
+    $string = "String 2"."\n";
+    printString($string);
+    print($string);
+```
