@@ -145,4 +145,35 @@ $arr = ["unu", "doi", "trei"]
     $child->afiseazaDetalii();
 ```
 
+> 17 . Clonarea obiectelor in PHP se pate face prin doua metode: copiere si clonare. Exemplificati prin cod pornind de la exemplu de mai jos cele doua metode si rezultatele obtinute.
 
+> 
+```php
+    class A
+    {
+        public $a = 100;
+    }
+    
+    $obj = new A();
+    // de completat
+    // $b va fi obiectul clonat folosid cele 2 metode
+    $b->x = 101;
+    print($b->x);// ce se afiseaza?
+    print($a->x);// ce se afiseaza?    
+```
+
+> 18 . Descrie si exemplifica pe scurt doua Design Patterns la alegere.
+
+### HTTP
+> 19 . Care sunt HTTP Request Methods si care e specificul si contextul de folosire pentru fiecare dintre ele.
+
+### MYSLQ
+> 20 . Avand o aplicatie web de tip emag trebuie sa cream o baza de date relationala care sa cuprinda urmatoarele informatii in tabelele sale:
+> - Categorie produse (category)
+> - Produs (product)
+> Un produs poate sa apartina de mai multe categorii, iar o categorie poate sa nu contina niciun produs.
+> Cerinte:
+> - scrie codul mysq de creare a tabelelor product si category
+> - scrie query-ul mysql care returneaza toate produsele impreuna cu informatiile despre categoria de care aparine
+> - scrie query-ul mysql care returneaza toate categoriile fara produse
+> - scrie query-ul mysql care ordoneaza crescator categoriile dupa numarul de produse care ii sunt asociate
