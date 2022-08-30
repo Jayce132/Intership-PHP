@@ -26,3 +26,13 @@ $str = "String 2";
 $string = $str;
 printString($string);
 ```
+> 4 . Ce valoare va return functia? Explica rezultatul.
+> 
+```php
+function calc($x) {
+   return $x++;
+}
+print(calc(1));
+```
+
+> 4 . Modifica linia de cod return $x++; din functia de la punctul precedent astfel incat rezultatul sa fie 1 incrementat cu 1, adica 2. Explica rezultatul.
