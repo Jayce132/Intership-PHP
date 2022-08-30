@@ -79,3 +79,5 @@ $arr = ["unu", "doi", "trei"]
     
     // De completat
 ```
+
+> 10 . Ce sunt interfetele si clasele abstarcte? Scrieti codul pentru o interfata care se numeste Payments si care contine 2 metode: adauga si scade. Scrie o clasa OnlinePayments care foloseste interfata Payments.
