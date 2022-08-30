@@ -7,7 +7,7 @@
 Timp disponibil: 2 ore
 
 ### PHP
-> 1 . Explica care este diferenta intre == si === si ce va return evaluarea celor do expresii:
+> 1 . Explica care este diferenta intre == si === si ce va return evaluarea celor doua expresii:
 > 
 ```php
     $a = 1; $b = "1";
