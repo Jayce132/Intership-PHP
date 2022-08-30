@@ -82,7 +82,7 @@ $arr = ["unu", "doi", "trei"]
 
 > 10 . Ce sunt interfetele si clasele abstarcte? Scrieti codul pentru o interfata care se numeste Payments si care contine 2 metode: adauga si scade. Scrie o clasa OnlinePayments care foloseste interfata Payments.
 
-> 11 . Avand urmatoarele doua cl;ase definite de ralatiila de mostenire intre ele, completati codul astfel incat clasa Child sa poata accessa varabila privata $cnp din clasa Parent:
+> 11 . Avand urmatoarele doua clase definite de relatia de mostenire intre ele, completati codul astfel incat clasa Child sa poata accessa varabila privata $cnp din clasa Parent:
 
 > 
 ```php
@@ -98,6 +98,47 @@ $arr = ["unu", "doi", "trei"]
             // acceseaza variabia privata $cnp
         }
     }    
+```
+
+> 12 . Avand urmatoarele doua clase definite de relatia de mostenire intre ele, completati codul astfel incat clasa Child sa incarce constructorul clasei parinte:
+
+> 
+```php
+    class Parent
+    {
+        public function __construct()
+        {
+        }
+    }
+    
+    class Child extends Parent
+    {
+       // De completat
+    }    
+```
+
+> 12 . Avand urmatoarele doua clase definite de relatia de mostenire intre ele, modifica codul astfel incat apelul function afiseazaDetalii al clasei Child sa afiseze "afiseazaDetalii parinte afiseazaDetalii copil" 
+
+> 
+```php
+    class Parent
+    {
+        public function afiseazaDetalii()
+        {
+            print(" afiseazaDetalii parinte ");
+        }
+    }
+    
+    class Child extends Parent
+    {
+        public function afiseazaDetalii()
+        {
+            print(" afiseazaDetalii copil ");
+        }
+    }   
+    
+    $child = new Child();
+    $child->afiseazaDetalii();
 ```
 
 
