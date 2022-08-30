@@ -4,6 +4,8 @@
 >    - folosirea editorului online https://onecompiler.com/php care permite salvare , share sau download de fisier php
 >    - orice alta metoda care sa fie descifrabila :)
 
+Timp disponibil: 2 ore
+
 ### PHP
 > 1 . Explica care este diferenta intre == si === si ce va return evaluarea celor do expresii:
 > 
