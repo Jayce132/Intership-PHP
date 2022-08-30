@@ -176,7 +176,7 @@ $arr = ["unu", "doi", "trei"]
 > 20 . Avand o aplicatie web de tip emag trebuie sa cream o baza de date relationala care sa cuprinda urmatoarele informatii in tabelele sale:
 > - Categorie produse (category)
 > - Produs (product)
-> Un produs poate sa apartina de mai multe categorii, iar o categorie poate sa nu contina niciun produs.
+> - Un produs poate sa apartina de mai multe categorii, iar o categorie poate sa nu contina niciun produs.
 > Cerinte:
 > - scrie codul mysq de creare a tabelelor product si category
 > - scrie query-ul mysql care returneaza toate produsele impreuna cu informatiile despre categoria de care aparine
