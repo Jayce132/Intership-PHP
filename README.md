@@ -46,3 +46,5 @@ print(calc(1));
 ```php
 $arr = ["unu", "doi", "trei"]
 ```
+
+> 7 . Descrieti si motivati utilitatea si utilizarea cookies si session variable. Exemplificati teoretic pe o aplicatie web ipotetica de tip emag.
