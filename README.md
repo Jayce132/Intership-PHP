@@ -1,8 +1,8 @@
 # Intership PHP
-> Pentru completarea raspunsurilor care necesita scriere de cod PHP se poate folosi orice metoda:
->    - folosirea locala a unui editor php si atasarea in commit a unui fisier php pentru fiecare punct
->    - folosirea editorului online https://onecompiler.com/php care permite salvare ,share sau download de fisier php
->    - orice alta metoda care sa fie descifrabila :)
+> Raspunsurile se pot trimite ca un reply la email-ul care l-ati primit si pot avea forma:
+>  - raspunsurile care nu necesita scriere de cod php se pot trece intr-un fisier word, pdf, etc.
+>  - raspunsurilor care necesita scriere de cod PHP se trec in fisiere php cu conventis de nume: <<punct.php>> (ex: 3.php), sau se poate folosi un editor online care permite salvare ,share sau download de fisier php (ex: https://onecompiler.com/php).  
+>   - link catre un github repo care sa contina cele 2 puncte de mai sus (Recomanday)
 
 Timp disponibil: 2 ore
 
