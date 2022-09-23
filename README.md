@@ -6,20 +6,26 @@
 
 ### PHP
 > 1 . Explica care este diferenta intre == si === si ce va return evaluarea celor doua expresii:
-> 
+>
 ```php
     $a = 1; $b = "1";
     $a == $b;
     $a === $b;
 ```
+###### R1:
+
 ``` 
  == means is equal, checks if it's the same value but doesn't check the type
  === means indentical, checks if it's the same value and the same type
  $a == $b returns true
  $a === $b returns false
 ```
+<br />
+<br />
 
+---
 > 2 . Enumera tipurile de iteratori (loops) din php si exemplifica fiecare prin scrierea unei bucati de cod care sa itereze peste un array care contine cifrele de la 0-99 si printeaza fiecare numar par.
+###### R2:
 ```php
 <?php
 
@@ -71,9 +77,12 @@ foreach ($numbers as $number) {
     }
 }
 ```
+<br />
+<br />
+
+---
  > 3 . Scrie o functie printString() care primeste ca parametru un string si printeaza parametrul primit.
  Urmatoarele doua bucati de cod apeleaza functia printString(). Care va fi rezultatul afisat pentru cele dous situatii? Explica rezultatele.
-> 
 ```php
 $string = "String 1";
 $str = &$string;
@@ -86,6 +95,7 @@ $str = "String 2";
 $string = $str;
 printString($string);
 ```
+###### R3:
 ```php
 <?php
 
@@ -118,6 +128,10 @@ function printString($string)
     echo "$string\n";
 }
 ```
+<br />
+<br />
+
+---
 > 4 . Ce valoare va return functia? Explica rezultatul.
 > 
 ```php
@@ -126,7 +140,7 @@ function calc($x) {
 }
 print(calc(1));
 ```
-
+###### R4:
 ```php
 <?php
 
@@ -136,8 +150,12 @@ function calc($x) {
     return $x++;
 }
 ```
+<br />
+<br />
 
+---
 > 5 . Modifica linia de cod return $x++; din functia de la punctul precedent astfel incat rezultatul sa fie 1 incrementat cu 1, adica 2. Explica rezultatul.
+###### R5:
 ```php
 function calc($x) {
     // This will return 2
@@ -145,9 +163,14 @@ function calc($x) {
     return ++$x;
 }
 ```
+<br />
+<br />
+
+---
 > 6 . Scrie doua instructiuni for care itereaza peste un sir de numere de la 0-99 si care:
 > - printeaza fiecare numar iterat si intrerupe iteratia la primul numar divizibil cu 5
 > - printeaza numerele nedivizibile cu 5
+###### R6:
 ```php
 <?php
 
@@ -180,7 +203,12 @@ for ($i = 0; $i <= $end; $i++) {
 // 0 1 2 3 4 5 
 // 1 2 3 4 6 7 8 9 11 12 13 14 16 17 18 19 21 22 23 24 26 ...
 ```
+<br />
+<br />
+
+---
 > 7 . Scrie o functie care primeste un parametru si printeaza tipul acestuia in felul urmator: daca e de tipul string va afisa mesajul "Tip String", daca e de tipul intreg va afisa mesajul "Tip Intreg", iar pentru orice alt tip va afisa mesajul "Tip Default". Foloseste structura switch-case in corpul functiei. Exemplifica apelarea functiei pentru a acoperi toate cele 3 cazuri de afisare de mesaje.
+###### R7:
 ```php
 <?php
 
@@ -211,6 +239,10 @@ printType(1);
 // case default
 printType(true);
 ```
+<br />
+<br />
+
+---
 > 8 . Avand urmatorul sir (array) scrieti conditiile if() separate pentru fiecare subpunct care:
 > -   verifica daca sirul contine maxim 3 elemente si ca elementul cu indexul (key) 3 exista sau nu
 > -   verifica daca elementul cu indexul (key) 2 are valoarea "doi" sau "trei"
@@ -218,6 +250,7 @@ printType(true);
 ```php
 $arr = ["unu", "doi", "trei"]
 ```
+###### R8:
 ```php
 <?php
 
@@ -250,8 +283,12 @@ if (array_key_exists(2, $arr)) {
     echo "Element at index 2 doesn't exist\n";
 }
 ```
+<br />
+<br />
 
+---
 > 9 . Descrieti si motivati utilitatea si utilizarea cookies si session variable. Exemplificati teoretic pe o aplicatie web ipotetica de tip emag.
+###### R9:
 ```
 HTTP is a stateless protocol
 We use cookies and sessions so a site can remember who we are
@@ -265,14 +302,23 @@ Now the website remembers who you are
 
 After we logout or the session expires the session id is deleted
 ```
+<br />
+<br />
 
+---
 > 10 . Explicati error, warning si notice si efectele lor asupra executarii codului php.
+###### R10:
 ```
 Error - Errors that can not be recovered from so the execution of the script is halted
 Warning - Signals that there is a problem which could cause bigger issues in the future, but doesn't stop the execution of the script
 Notice - Similar to warning but less severe, mostly advisory
 ```
+<br />
+<br />
+
+---
 > 11 . Care sunt diferentele intre cele 3 nivele de visibilitate in OOP: public, protected si private.
+###### R11:
 ```
 public - is the default, attributes and methods of a class can be accesed from anywhere
 protected - attributes and methods of the class can only be accessed within the class and by derived classes
@@ -312,6 +358,10 @@ echo "$derived->name \n"; // is public, can be accessed from outside of class
 echo "{$derived->getAge()} \n"; // we need to use the public method to access the private variable
 echo "{$derived->getHeight()} \n"; // we use the public method to access a protected variable from here
 ```
+<br />
+<br />
+
+---
 > 12 . Ce este Overloading si Overriding in OOP? 
 > - Exemplificati Overloading prin completarea codului:
 
@@ -325,6 +375,7 @@ echo "{$derived->getHeight()} \n"; // we use the public method to access a prote
         // De completat
     }
 ```
+###### R12:
 ```
 Overloading is when we use the same function name but with different quantities and types of parameters
 
@@ -382,6 +433,7 @@ output:
     
     // De completat
 ```
+###### R12:
 ```
 Overriding allows a child class to provide a different implementation of a method from the class that it extends
 ```
@@ -413,8 +465,12 @@ output:
 5
 -1
 ```
+<br />
+<br />
 
+---
 > 13 . Ce sunt interfetele si clasele abstarcte? Scrieti codul pentru o interfata care se numeste Payments si care contine 2 metode: adauga si scade. Scrie o clasa OnlinePayments care foloseste interfata Payments.
+###### R13:
 ```
 Interfaces are used for defining behaviour, they tell you what methods a class must implement
 All of the methods in an interface are abstract and public by default and they must be implemented in the class that uses the interface
@@ -453,8 +509,11 @@ $myPayments->adauga();
 
 echo $myPayments->balance;
 ```
-> 14 . Avand urmatoarele doua clase definite de relatia de mostenire intre ele, completati codul astfel incat clasa Child sa poata accessa varabila privata $cnp din clasa Parent:
+<br />
+<br />
 
+---
+> 14 . Avand urmatoarele doua clase definite de relatia de mostenire intre ele, completati codul astfel incat clasa Child sa poata accessa varabila privata $cnp din clasa Parent:
 ```php
     class Parent
     {
@@ -469,7 +528,7 @@ echo $myPayments->balance;
         }
     }    
 ```
-
+###### R14:
 ```
 To access private $cnp inside the Child class
 we must either create a getter or make the attribute protected
@@ -503,9 +562,11 @@ $child = new Child(12001324312312);
 
 $child->afiseazaDetalii();
 ```
+<br />
+<br />
 
+---
 > 15 . Avand urmatoarele doua clase definite de relatia de mostenire intre ele, completati codul astfel incat clasa Child sa incarce constructorul clasei parinte:
-
 ```php
     class Parent
     {
@@ -519,7 +580,7 @@ $child->afiseazaDetalii();
        // De completat
     }    
 ```
-
+###### R15:
 ```php
 <?php
 
@@ -541,7 +602,10 @@ class Child extends Parent
 
 }
 ```
+<br />
+<br />
 
+---
 > 16 . Avand urmatoarele doua clase definite de relatia de mostenire intre ele, modifica codul astfel incat apelul functiei afiseazaDetalii al clasei Child sa afiseze "afiseazaDetalii parinte afiseazaDetalii copil" 
 
 ```php
@@ -564,7 +628,7 @@ class Child extends Parent
     $child = new Child();
     $child->afiseazaDetalii();
 ```
-
+###### R16:
 ```php
 <?php
 
@@ -588,9 +652,11 @@ class Child extends Parent1
 $child = new Child();
 $child->afiseazaDetalii();
 ```
+<br />
+<br />
 
+---
 > 17 . Clonarea obiectelor in PHP se pate face prin doua metode: copiere si clonare. Exemplificati prin cod pornind de la exemplu de mai jos cele doua metode si rezultatele obtinute.
-
 ```php
     class A
     {
@@ -604,6 +670,7 @@ $child->afiseazaDetalii();
     print($b->x);// ce se afiseaza?
     print($a->x);// ce se afiseaza?    
 ```
+###### R17:
 ```
 When we do &personClone = clone $person we create a new clone of the object
 It has the same values but it is a new reference
@@ -647,9 +714,12 @@ person age: 33
 person copy age: 54
 person age: 54
 ```
+<br />
+<br />
 
+---
 > 18 . Descrie si exemplifica pe scurt doua Design Patterns la alegere.
-
+###### R18:
 ```
 Singleton - when we want to use the same instance of an object in the whole program
 ```
@@ -758,6 +828,7 @@ $product
 
 ### HTTP
 > 19 . Care sunt HTTP Request Methods si care e specificul si contextul de folosire pentru fiecare dintre ele.
+###### R19:
 ```
 Most used HTTP Request Methods are
 
@@ -789,7 +860,7 @@ DELETE - used to delete data on the server
 > - scrie query-ul mysql care returneaza toate produsele impreuna cu informatiile despre categoria de care aparine
 > - scrie query-ul mysql care returneaza toate categoriile fara produse
 > - scrie query-ul mysql care ordoneaza crescator categoriile dupa numarul de produse care ii sunt asociate
-
+###### R20:
 ```mysql
 CREATE TABLE product
 (
